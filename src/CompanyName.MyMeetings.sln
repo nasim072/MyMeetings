@@ -19,65 +19,79 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompanyName.MyMeetings.Modu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompanyName.MyMeetings.BuildingBlocks.Infrastructure", "CompanyName.MyMeetings.BuildingBlocks.Infrastructure\CompanyName.MyMeetings.BuildingBlocks.Infrastructure.csproj", "{54AEAF4A-CF40-428F-B24B-D2F9F110D182}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompanyName.MyMeetings.Modules.UserAccess.IntegrationEvents", "CompanyName.MyMeetings.Modules.UserAccess.IntegrationEvents\CompanyName.MyMeetings.Modules.UserAccess.IntegrationEvents.csproj", "{6F4E8288-FF88-4724-9EE3-B0E990FD49DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompanyName.MyMeetings.Modules.UserAccess.IntegrationEvents", "CompanyName.MyMeetings.Modules.UserAccess.IntegrationEvents\CompanyName.MyMeetings.Modules.UserAccess.IntegrationEvents.csproj", "{6F4E8288-FF88-4724-9EE3-B0E990FD49DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompanyName.MyMeetings.BuildingBlocks.EventBus", "CompanyName.MyMeetings.BuildingBlocks.EventBus\CompanyName.MyMeetings.BuildingBlocks.EventBus.csproj", "{2FD07A2E-6BC1-4398-9D31-2CC22F94E45F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompanyName.MyMeetings.BuildingBlocks.EventBus", "CompanyName.MyMeetings.BuildingBlocks.EventBus\CompanyName.MyMeetings.BuildingBlocks.EventBus.csproj", "{2FD07A2E-6BC1-4398-9D31-2CC22F94E45F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{B3B693AC-4CA1-4E36-A8C5-7D62133F3184}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompanyName.MyMeetings.BuildingBlocks.Application.UnitTests", "CompanyName.MyMeetings.BuildingBlocks.Application.UnitTests\CompanyName.MyMeetings.BuildingBlocks.Application.UnitTests.csproj", "{34EC5C11-42E1-46FA-832A-221EAC0A4D2F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompanyName.MyMeetings.BuildingBlocks.Application.UnitTests", "CompanyName.MyMeetings.BuildingBlocks.Application.UnitTests\CompanyName.MyMeetings.BuildingBlocks.Application.UnitTests.csproj", "{34EC5C11-42E1-46FA-832A-221EAC0A4D2F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompanyName.MyMeetings.BuildingBlocks.IntegrationTests", "CompanyName.MyMeetings.BuildingBlocks.IntegrationTests\CompanyName.MyMeetings.BuildingBlocks.IntegrationTests.csproj", "{5DBC0FB5-E424-4771-90C4-86CCF63FA115}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompanyName.MyMeetings.BuildingBlocks.IntegrationTests", "CompanyName.MyMeetings.BuildingBlocks.IntegrationTests\CompanyName.MyMeetings.BuildingBlocks.IntegrationTests.csproj", "{5DBC0FB5-E424-4771-90C4-86CCF63FA115}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{0C10613D-FA10-4B79-82DF-A4C4DB2DA099}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompanyName.MyMeetings.Modules.UserAccess.ArchTests", "CompanyName.MyMeetings.Modules.UserAccess.ArchTests\CompanyName.MyMeetings.Modules.UserAccess.ArchTests.csproj", "{182A7514-631B-4CB0-82C2-5D03D37C4B06}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompanyName.MyMeetings.Modules.UserAccess.ArchTests", "CompanyName.MyMeetings.Modules.UserAccess.ArchTests\CompanyName.MyMeetings.Modules.UserAccess.ArchTests.csproj", "{182A7514-631B-4CB0-82C2-5D03D37C4B06}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompanyName.MyMeetings.Modules.UserAccess.Infrastructure", "CompanyName.MyMeetings.Modules.UserAccess.Infrastructure\CompanyName.MyMeetings.Modules.UserAccess.Infrastructure.csproj", "{BF3F9AFD-C94B-4E0D-9BAB-EB1AAFB02C92}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompanyName.MyMeetings.Modules.UserAccess.Infrastructure", "CompanyName.MyMeetings.Modules.UserAccess.Infrastructure\CompanyName.MyMeetings.Modules.UserAccess.Infrastructure.csproj", "{BF3F9AFD-C94B-4E0D-9BAB-EB1AAFB02C92}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompanyName.MyMeetings.Modules.UserAccess.Domain.UnitTests", "CompanyName.MyMeetings.Modules.UserAccess.Domain.UnitTests\CompanyName.MyMeetings.Modules.UserAccess.Domain.UnitTests.csproj", "{A6902743-F234-4663-83C8-51C7A37EBAA0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompanyName.MyMeetings.Modules.UserAccess.Domain.UnitTests", "CompanyName.MyMeetings.Modules.UserAccess.Domain.UnitTests\CompanyName.MyMeetings.Modules.UserAccess.Domain.UnitTests.csproj", "{A6902743-F234-4663-83C8-51C7A37EBAA0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompanyNames.MyMeetings.Modules.UserAccess.IntegrationTests", "CompanyNames.MyMeetings.Modules.UserAccess.IntegrationTests\CompanyNames.MyMeetings.Modules.UserAccess.IntegrationTests.csproj", "{E613F187-E1BD-4629-B18F-EE2FCF222F5E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompanyNames.MyMeetings.Modules.UserAccess.IntegrationTests", "CompanyNames.MyMeetings.Modules.UserAccess.IntegrationTests\CompanyNames.MyMeetings.Modules.UserAccess.IntegrationTests.csproj", "{E613F187-E1BD-4629-B18F-EE2FCF222F5E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Administration", "Administration", "{0E6C6E29-D89B-4FA4-A772-7524C11D27FA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompanyName.MyMeetings.Modules.Administration.Domain", "CompanyName.MyMeetings.Modules.Administration.Domain\CompanyName.MyMeetings.Modules.Administration.Domain.csproj", "{CD7A2216-B6E1-4BCE-867C-2D84A9861F27}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompanyName.MyMeetings.Modules.Administration.Domain", "CompanyName.MyMeetings.Modules.Administration.Domain\CompanyName.MyMeetings.Modules.Administration.Domain.csproj", "{CD7A2216-B6E1-4BCE-867C-2D84A9861F27}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompanyName.MyMeetings.Modules.Administration.Application", "CompanyName.MyMeetings.Modules.Administration.Application\CompanyName.MyMeetings.Modules.Administration.Application.csproj", "{737FF822-2BD0-4565-9013-C6FD773CCB20}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompanyName.MyMeetings.Modules.Administration.Application", "CompanyName.MyMeetings.Modules.Administration.Application\CompanyName.MyMeetings.Modules.Administration.Application.csproj", "{737FF822-2BD0-4565-9013-C6FD773CCB20}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompanyName.MyMeetings.Modules.Administration.IntegrationEvents", "CompanyName.MyMeetings.Modules.Administration.IntegrationEvents\CompanyName.MyMeetings.Modules.Administration.IntegrationEvents.csproj", "{5834EF22-919E-42D1-B299-6EEDF876997A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompanyName.MyMeetings.Modules.Administration.IntegrationEvents", "CompanyName.MyMeetings.Modules.Administration.IntegrationEvents\CompanyName.MyMeetings.Modules.Administration.IntegrationEvents.csproj", "{5834EF22-919E-42D1-B299-6EEDF876997A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Meetings", "Meetings", "{8E9B5412-DA83-43EC-AD27-9710980A8F72}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompanyName.MyMeetings.Modules.Meetings.IntegrationEvents", "CompanyName.MyMeetings.Modules.Meetings.IntegrationEvents\CompanyName.MyMeetings.Modules.Meetings.IntegrationEvents.csproj", "{A2AE6BDE-41D2-4D96-B7AA-E65779EBCBF4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompanyName.MyMeetings.Modules.Meetings.IntegrationEvents", "CompanyName.MyMeetings.Modules.Meetings.IntegrationEvents\CompanyName.MyMeetings.Modules.Meetings.IntegrationEvents.csproj", "{A2AE6BDE-41D2-4D96-B7AA-E65779EBCBF4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompanyName.MyMeetings.Modules.Administration.Infrastructure", "CompanyName.MyMeetings.Modules.Administration.Infrastructure\CompanyName.MyMeetings.Modules.Administration.Infrastructure.csproj", "{C742C4DD-4C37-4CF8-94F2-F759A7A4140D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompanyName.MyMeetings.Modules.Administration.Infrastructure", "CompanyName.MyMeetings.Modules.Administration.Infrastructure\CompanyName.MyMeetings.Modules.Administration.Infrastructure.csproj", "{C742C4DD-4C37-4CF8-94F2-F759A7A4140D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{29F00696-5B29-41B5-8CF7-9F299962DA7D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompanyName.MyMeetings.Modules.Administration.ArchTests", "CompanyName.MyMeetings.Modules.Administration.ArchTests\CompanyName.MyMeetings.Modules.Administration.ArchTests.csproj", "{F298C929-29BA-482A-A93F-89CA6973AA74}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompanyName.MyMeetings.Modules.Administration.ArchTests", "CompanyName.MyMeetings.Modules.Administration.ArchTests\CompanyName.MyMeetings.Modules.Administration.ArchTests.csproj", "{F298C929-29BA-482A-A93F-89CA6973AA74}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompanyName.MyMeetings.Modules.Administration.Domain.UnitTests", "CompanyName.MyMeetings.Modules.Administration.Domain.UnitTests\CompanyName.MyMeetings.Modules.Administration.Domain.UnitTests.csproj", "{B3861F02-3589-419A-ABEF-9AA402327672}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompanyName.MyMeetings.Modules.Administration.Domain.UnitTests", "CompanyName.MyMeetings.Modules.Administration.Domain.UnitTests\CompanyName.MyMeetings.Modules.Administration.Domain.UnitTests.csproj", "{B3861F02-3589-419A-ABEF-9AA402327672}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompanyName.MyMeetings.Modules.Administration.IntegrationTests", "CompanyName.MyMeetings.Modules.Administration.IntegrationTests\CompanyName.MyMeetings.Modules.Administration.IntegrationTests.csproj", "{2F35D3CA-9BFD-4011-902E-DC32617399F6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompanyName.MyMeetings.Modules.Administration.IntegrationTests", "CompanyName.MyMeetings.Modules.Administration.IntegrationTests\CompanyName.MyMeetings.Modules.Administration.IntegrationTests.csproj", "{2F35D3CA-9BFD-4011-902E-DC32617399F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompanyName.MyMeetings.Modules.Meetings.Domain", "CompanyName.MyMeetings.Modules.Meetings.Domain\CompanyName.MyMeetings.Modules.Meetings.Domain.csproj", "{32094EE6-EE33-4A83-AE13-2E5F86729AB3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompanyName.MyMeetings.Modules.Meetings.Domain", "CompanyName.MyMeetings.Modules.Meetings.Domain\CompanyName.MyMeetings.Modules.Meetings.Domain.csproj", "{32094EE6-EE33-4A83-AE13-2E5F86729AB3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompanyName.MyMeetings.Modules.Meetings.Application", "CompanyName.MyMeetings.Modules.Meetings.Application\CompanyName.MyMeetings.Modules.Meetings.Application.csproj", "{AA8E7D02-F07F-472D-A6AD-82D37114B9F7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompanyName.MyMeetings.Modules.Meetings.Application", "CompanyName.MyMeetings.Modules.Meetings.Application\CompanyName.MyMeetings.Modules.Meetings.Application.csproj", "{AA8E7D02-F07F-472D-A6AD-82D37114B9F7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Payments", "Payments", "{D8866A5C-B32E-4BE1-9B44-AC83F447EEBB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompanyName.MyMeetings.Modules.Payments.IntegrationEvents", "CompanyName.MyMeetings.Modules.Payments.IntegrationEvents\CompanyName.MyMeetings.Modules.Payments.IntegrationEvents.csproj", "{36BFA74A-CF88-4E12-B81A-ADAE425DE3C4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompanyName.MyMeetings.Modules.Payments.IntegrationEvents", "CompanyName.MyMeetings.Modules.Payments.IntegrationEvents\CompanyName.MyMeetings.Modules.Payments.IntegrationEvents.csproj", "{36BFA74A-CF88-4E12-B81A-ADAE425DE3C4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompanyName.MyMeetings.Modules.Meetings.Infrastructure", "CompanyName.MyMeetings.Modules.Meetings.Infrastructure\CompanyName.MyMeetings.Modules.Meetings.Infrastructure.csproj", "{93E613B3-A9B1-4FB4-ADF8-B76AB7040105}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompanyName.MyMeetings.Modules.Meetings.Infrastructure", "CompanyName.MyMeetings.Modules.Meetings.Infrastructure\CompanyName.MyMeetings.Modules.Meetings.Infrastructure.csproj", "{93E613B3-A9B1-4FB4-ADF8-B76AB7040105}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{4D2AFE1C-1342-46BB-A5A8-79BE2899A465}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompanyName.MyMeetings.Modules.Meetings.ArchTests", "CompanyName.MyMeetings.Modules.Meetings.ArchTests\CompanyName.MyMeetings.Modules.Meetings.ArchTests.csproj", "{5BA5E96D-5290-410D-8072-6924E0CD7996}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompanyName.MyMeetings.Modules.Meetings.ArchTests", "CompanyName.MyMeetings.Modules.Meetings.ArchTests\CompanyName.MyMeetings.Modules.Meetings.ArchTests.csproj", "{5BA5E96D-5290-410D-8072-6924E0CD7996}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompanyName.MyMeetings.Modules.Meetings.Domain.UnitTests", "CompanyName.MyMeetings.Modules.Meetings.Domain.UnitTests\CompanyName.MyMeetings.Modules.Meetings.Domain.UnitTests.csproj", "{00DA8D0E-A0AF-4EDC-9FBC-60CBD751BDC8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompanyName.MyMeetings.Modules.Meetings.Domain.UnitTests", "CompanyName.MyMeetings.Modules.Meetings.Domain.UnitTests\CompanyName.MyMeetings.Modules.Meetings.Domain.UnitTests.csproj", "{00DA8D0E-A0AF-4EDC-9FBC-60CBD751BDC8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompanyName.MyMeetings.Modules.Meetings.IntegrationTests", "CompanyName.MyMeetings.Modules.Meetings.IntegrationTests\CompanyName.MyMeetings.Modules.Meetings.IntegrationTests.csproj", "{626E3687-24B6-44D9-9C55-403CE4F07FE4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompanyName.MyMeetings.Modules.Meetings.IntegrationTests", "CompanyName.MyMeetings.Modules.Meetings.IntegrationTests\CompanyName.MyMeetings.Modules.Meetings.IntegrationTests.csproj", "{626E3687-24B6-44D9-9C55-403CE4F07FE4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompanyName.MyMeetings.Modules.Payments.Domain", "CompanyName.MyMeetings.Modules.Payments.Domain\CompanyName.MyMeetings.Modules.Payments.Domain.csproj", "{C1711484-5F3B-4534-B749-99622EE57608}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompanyName.MyMeetings.Modules.Payments.Application", "CompanyName.MyMeetings.Modules.Payments.Application\CompanyName.MyMeetings.Modules.Payments.Application.csproj", "{AA328D75-90B9-47CE-9BA3-EB46920D1F8D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompanyName.MyMeetings.Modules.Payments.Infrastructure", "CompanyName.MyMeetings.Modules.Payments.Infrastructure\CompanyName.MyMeetings.Modules.Payments.Infrastructure.csproj", "{50EC7C01-1D8C-4DF5-849F-179596C8311E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{D34696E0-E22E-4D52-8656-1884016313D9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompanyName.MyMeetings.Modules.Payments.ArchTests", "CompanyName.MyMeetings.Modules.Payments.ArchTests\CompanyName.MyMeetings.Modules.Payments.ArchTests.csproj", "{179D931C-AAEE-4193-A28D-1298D4201B2A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompanyName.MyMeetings.Modules.Payments.IntegrationTests", "CompanyName.MyMeetings.Modules.Payments.IntegrationTests\CompanyName.MyMeetings.Modules.Payments.IntegrationTests.csproj", "{B4F4A016-F5EF-4755-897A-DA1C45A56040}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompanyName.MyMeetings.Modules.Payments.Domain.UnitTests", "CompanyName.MyMeetings.Modules.Payments.Domain.UnitTests\CompanyName.MyMeetings.Modules.Payments.Domain.UnitTests.csproj", "{C53C95A9-8BEF-4F47-B180-5B9F04482502}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -197,6 +211,30 @@ Global
 		{626E3687-24B6-44D9-9C55-403CE4F07FE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{626E3687-24B6-44D9-9C55-403CE4F07FE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{626E3687-24B6-44D9-9C55-403CE4F07FE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1711484-5F3B-4534-B749-99622EE57608}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1711484-5F3B-4534-B749-99622EE57608}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1711484-5F3B-4534-B749-99622EE57608}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1711484-5F3B-4534-B749-99622EE57608}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA328D75-90B9-47CE-9BA3-EB46920D1F8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA328D75-90B9-47CE-9BA3-EB46920D1F8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA328D75-90B9-47CE-9BA3-EB46920D1F8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA328D75-90B9-47CE-9BA3-EB46920D1F8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50EC7C01-1D8C-4DF5-849F-179596C8311E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50EC7C01-1D8C-4DF5-849F-179596C8311E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50EC7C01-1D8C-4DF5-849F-179596C8311E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50EC7C01-1D8C-4DF5-849F-179596C8311E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{179D931C-AAEE-4193-A28D-1298D4201B2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{179D931C-AAEE-4193-A28D-1298D4201B2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{179D931C-AAEE-4193-A28D-1298D4201B2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{179D931C-AAEE-4193-A28D-1298D4201B2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4F4A016-F5EF-4755-897A-DA1C45A56040}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4F4A016-F5EF-4755-897A-DA1C45A56040}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4F4A016-F5EF-4755-897A-DA1C45A56040}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4F4A016-F5EF-4755-897A-DA1C45A56040}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C53C95A9-8BEF-4F47-B180-5B9F04482502}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C53C95A9-8BEF-4F47-B180-5B9F04482502}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C53C95A9-8BEF-4F47-B180-5B9F04482502}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C53C95A9-8BEF-4F47-B180-5B9F04482502}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -238,6 +276,13 @@ Global
 		{5BA5E96D-5290-410D-8072-6924E0CD7996} = {4D2AFE1C-1342-46BB-A5A8-79BE2899A465}
 		{00DA8D0E-A0AF-4EDC-9FBC-60CBD751BDC8} = {4D2AFE1C-1342-46BB-A5A8-79BE2899A465}
 		{626E3687-24B6-44D9-9C55-403CE4F07FE4} = {4D2AFE1C-1342-46BB-A5A8-79BE2899A465}
+		{C1711484-5F3B-4534-B749-99622EE57608} = {D8866A5C-B32E-4BE1-9B44-AC83F447EEBB}
+		{AA328D75-90B9-47CE-9BA3-EB46920D1F8D} = {D8866A5C-B32E-4BE1-9B44-AC83F447EEBB}
+		{50EC7C01-1D8C-4DF5-849F-179596C8311E} = {D8866A5C-B32E-4BE1-9B44-AC83F447EEBB}
+		{D34696E0-E22E-4D52-8656-1884016313D9} = {D8866A5C-B32E-4BE1-9B44-AC83F447EEBB}
+		{179D931C-AAEE-4193-A28D-1298D4201B2A} = {D34696E0-E22E-4D52-8656-1884016313D9}
+		{B4F4A016-F5EF-4755-897A-DA1C45A56040} = {D34696E0-E22E-4D52-8656-1884016313D9}
+		{C53C95A9-8BEF-4F47-B180-5B9F04482502} = {D34696E0-E22E-4D52-8656-1884016313D9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DFD2B8B1-10D1-4A34-B420-9DAE38351D3B}

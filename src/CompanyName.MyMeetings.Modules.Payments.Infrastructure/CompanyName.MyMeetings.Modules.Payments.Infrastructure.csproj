@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="6.5.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.2" />
+    <PackageReference Include="Polly" Version="7.2.3" />
+    <PackageReference Include="SqlStreamStore" Version="1.2.0" />
+    <PackageReference Include="SqlStreamStore.MsSql" Version="1.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CompanyName.MyMeetings.BuildingBlocks.Application\CompanyName.MyMeetings.BuildingBlocks.Application.csproj" />
+    <ProjectReference Include="..\CompanyName.MyMeetings.BuildingBlocks.EventBus\CompanyName.MyMeetings.BuildingBlocks.EventBus.csproj" />
+    <ProjectReference Include="..\CompanyName.MyMeetings.BuildingBlocks.Infrastructure\CompanyName.MyMeetings.BuildingBlocks.Infrastructure.csproj" />
+    <ProjectReference Include="..\CompanyName.MyMeetings.Modules.Administration.IntegrationEvents\CompanyName.MyMeetings.Modules.Administration.IntegrationEvents.csproj" />
+    <ProjectReference Include="..\CompanyName.MyMeetings.Modules.Payments.Application\CompanyName.MyMeetings.Modules.Payments.Application.csproj" />
+    <ProjectReference Include="..\CompanyName.MyMeetings.Modules.Payments.Domain\CompanyName.MyMeetings.Modules.Payments.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

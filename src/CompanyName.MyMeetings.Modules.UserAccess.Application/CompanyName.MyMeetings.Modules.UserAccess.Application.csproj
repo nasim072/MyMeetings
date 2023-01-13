@@ -23,6 +23,7 @@
   <ItemGroup>
     <ProjectReference Include="..\CompanyName.MyMeetings.BuildingBlocks.Application\CompanyName.MyMeetings.BuildingBlocks.Application.csproj" />
     <ProjectReference Include="..\CompanyName.MyMeetings.BuildingBlocks.Infrastructure\CompanyName.MyMeetings.BuildingBlocks.Infrastructure.csproj" />
+    <ProjectReference Include="..\CompanyName.MyMeetings.Modules.Meetings.IntegrationEvents\CompanyName.MyMeetings.Modules.Meetings.IntegrationEvents.csproj" />
     <ProjectReference Include="..\CompanyName.MyMeetings.Modules.UserAccess.Domain\CompanyName.MyMeetings.Modules.UserAccess.Domain.csproj" />
     <ProjectReference Include="..\CompanyName.MyMeetings.Modules.UserAccess.IntegrationEvents\CompanyName.MyMeetings.Modules.UserAccess.IntegrationEvents.csproj" />
   </ItemGroup>
