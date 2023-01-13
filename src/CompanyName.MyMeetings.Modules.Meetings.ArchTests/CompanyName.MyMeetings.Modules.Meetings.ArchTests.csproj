@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="6.5.0" />
+    <PackageReference Include="NetArchTest.Rules" Version="1.3.2" />
+    <PackageReference Include="NUnit" Version="3.13.3" />
+    <PackageReference Include="NUnit3TestAdapter" Version="4.3.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CompanyName.MyMeetings.BuildingBlocks.Domain\CompanyName.MyMeetings.BuildingBlocks.Domain.csproj" />
+    <ProjectReference Include="..\CompanyName.MyMeetings.Modules.Meetings.Application\CompanyName.MyMeetings.Modules.Meetings.Application.csproj" />
+    <ProjectReference Include="..\CompanyName.MyMeetings.Modules.Meetings.Domain\CompanyName.MyMeetings.Modules.Meetings.Domain.csproj" />
+    <ProjectReference Include="..\CompanyName.MyMeetings.Modules.Meetings.Infrastructure\CompanyName.MyMeetings.Modules.Meetings.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
